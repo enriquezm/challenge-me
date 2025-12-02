@@ -1,0 +1,16 @@
+{
+  "name": "challenge-me",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.0",
+    "sass": "^1.69.5",
+    "sass-embedded": "^1.93.3"
+  }
+}

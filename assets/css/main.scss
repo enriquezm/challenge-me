@@ -1,0 +1,16 @@
+// Global SCSS styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+// Dark mode class for theme switching
+.dark {
+  // Dark mode styles are handled in component scoped styles
+}

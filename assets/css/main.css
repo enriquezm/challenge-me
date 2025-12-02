@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-bg: #111;
+  --dark-card: #222;
+}
+
+.dark {
+  --tw-bg-opacity: 1;
+}
+
+.dark .dark\:bg-dark-bg {
+  background-color: var(--dark-bg);
+}
+
+.dark .dark\:bg-dark-card {
+  background-color: var(--dark-card);
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  border: none;
+}
